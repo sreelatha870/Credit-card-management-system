@@ -1,0 +1,135 @@
+output:
+Enter credit card number (16 digits): 1234567890123446
+Enter cardholder name: sree
+Enter expiry date (MM/YY): 12/89
+Enter CVV (3 digits): 333
+Enter credit limit: 200000
+Set a 4-digit PIN: 2222
+Card registered successfully with a credit limit of 200000.00!
+Enter your 4-digit PIN: 2222
+PIN validated successfully!
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 1
+
+--- Credit Card Details ---
+Card Number: 1234567890123446
+Cardholder Name: sree
+Expiry Date: 12/89
+Credit Limit: 200000.00
+Current Balance (Remaining Credit): 200000.00
+Reward Points: 0.00
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 3  
+Enter payment amount (EMI): 2340
+Payment of 2340.00 successful! New remaining credit limit: 197660.00
+Sending SMS to cardholder with message: Payment successful! Your remaining credit limit is 197660.00.
+Sending email to sree with message: Your updated balance sheet after payment.
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 2
+Enter transaction amount: 3456
+Enter transaction category (e.g., Shopping, Grocery, Entertainment): Shopping
+Enter CVV: 333
+CVV validated successfully. Now validating OTP...
+Generated OTP: 742908 (Simulated, for demonstration purposes)
+Enter OTP: 742908
+OTP validated successfully. Proceeding with transaction...
+Transaction of 3456.00 in Shopping category successful. New remaining balance: 194204.00
+You earned 34.56 reward points!
+Alert: You spent 3456.00 in the Shopping category.
+Sending SMS to cardholder with message: Transaction successful! Your remaining balance is 194204.00.
+Sending email to sree with message: Your updated balance sheet after transaction.
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 
+4
+Current available balance: 194204.00
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 6
+Total reward points: 34.56
+Total spent: 3456.00
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 2
+Enter transaction amount: 456
+Enter transaction category (e.g., Shopping, Grocery, Entertainment): shooping
+Enter CVV: 678
+Transaction declined due to incorrect CVV.
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 2
+Enter transaction amount: 3456
+Enter transaction category (e.g., Shopping, Grocery, Entertainment): Shopping
+Enter CVV: 333
+CVV validated successfully. Now validating OTP...
+Generated OTP: 674064 (Simulated, for demonstration purposes)
+Enter OTP: 67890
+Incorrect OTP! You have 2 attempts left.
+Enter OTP: 4567
+Incorrect OTP! You have 1 attempts left.
+Enter OTP: 4567
+Incorrect OTP! You have 0 attempts left.
+Transaction declined due to incorrect OTP.
+
+--- Credit Card Management System ---
+1. Display Card Details
+2. Make an Online Transaction
+3. Make a Payment (EMI)
+4. Check Balance
+5. Send Balance Sheet via Email
+6. Show Rewards & Insights
+7. Exit
+Enter your choice: 7
+Exiting...
